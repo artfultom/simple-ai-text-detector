@@ -1,0 +1,9 @@
+defaults:
+  - data: data
+  - baseline: baseline
+  - model: bert
+  - download_data: download_data
+  - _self_
+
+random_state: 42
+mlflow_tracking_uri: http://localhost:8080

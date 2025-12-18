@@ -1,0 +1,7 @@
+model_name: "bert-base-uncased"
+max_length: 128
+batch_size: 32
+learning_rate: 2e-5
+num_epochs: 1
+dropout: 0.3
+model_path: ./models

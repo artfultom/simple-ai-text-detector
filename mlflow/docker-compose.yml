@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  mlflow:
+    image: burakince/mlflow:3.7.0
+    container_name: mlflow
+    ports:
+      - "8080:8080"
+    environment:
+      MLFLOW_TRACKING_URI: http://0.0.0.0:8080
+    command: mlflow server --host 0.0.0.0 --port 8080

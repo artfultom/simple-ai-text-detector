@@ -1,0 +1,5 @@
+outs:
+- md5: 6d2d34161157db69f7214d4f1230e122
+  size: 326
+  hash: md5
+  path: classification_report.txt

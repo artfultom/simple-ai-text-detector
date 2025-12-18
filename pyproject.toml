@@ -1,11 +1,20 @@
 [project]
-name = "mlops-project"
+name = "simple-ai-text-detector"
 version = "0.1.0"
-description = "Add your description here"
+description = "MLOps Project"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "dvc>=3.64.2",
     "fire>=0.7.1",
+    "hydra-core>=1.3.2",
+    "kaggle>=1.8.2",
+    "lightning>=2.6.0",
+    "mlflow>=3.7.0",
+    "nltk>=3.9.2",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.8.0",
+    "transformers>=4.57.3",
 ]
 
 [dependency-groups]
